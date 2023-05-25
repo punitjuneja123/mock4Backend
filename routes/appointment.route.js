@@ -12,15 +12,10 @@ appointmentRoute.get("/checkAuth", (req, res) => {
 });
 
 appointmentRoute.get("/appointments", (req, res) => {
-  if (req.body.isDoctor) {
-    let appointmentData =
-      fs.readFileSync("./docappointments.json", "utf-8") || [];
-    appointmentData = JSON.parse(appointmentData);
-    res.send(appointmentData);
-  } else {
-    res.status(400);
-    req.send("you are not authorize");
-  }
+  let appointmentData =
+    fs.readFileSync("./docappointments.json", "utf-8") || [];
+  appointmentData = JSON.parse(appointmentData);
+  res.send(appointmentData);
 });
 
 appointmentRoute.post("/appointments", (req, res) => {
