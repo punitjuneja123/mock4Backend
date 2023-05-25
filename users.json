@@ -1,0 +1,26 @@
+[
+  {
+    "name": "punit",
+    "email": "punit@mail.com",
+    "password": "12345",
+    "isDoctor": false
+  },
+  {
+    "name": "sonu",
+    "email": "sonu@mail.com",
+    "password": "12345",
+    "isDoctor": true
+  },
+  {
+    "name": "monu",
+    "email": "monu@mail.com",
+    "password": "$2b$05$6Y62xY2awG3SRzldgmLwKuwvgT8IZAEc4fB4XZp4mkQqwx0yQ7N86",
+    "isDoctor": true
+  },
+  {
+    "name": "pinky",
+    "email": "pinky@mail.com",
+    "password": "$2b$05$6d2r5An.Tq2YizCUjNqNQeuvlUQ9a9sseuBU7LaDmoPWUwAYdSdqu",
+    "isDoctor": false
+  }
+]
